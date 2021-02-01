@@ -1,8 +1,7 @@
 # TheNextWeek
-The 3rd project for the HTML/CSS project
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+The 3rd project for the HTML/CSS project, For the first milestone 1, we were requested to make just the header and the footer, using more of bootstrap for  our styling and responsiveness.
+## Screenshot
+![prolajumokeoni github io_TheNewsWeek_](https://user-images.githubusercontent.com/69638013/106491020-f2c04380-64a5-11eb-91bb-8ece21fca786.png)
 
 ## Built With
 
@@ -12,8 +11,7 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://prolajumokeoni.github.io/TheNewsWeek/)
 
-## Screenshot
-![prolajumokeoni github io_TheNewsWeek_](https://user-images.githubusercontent.com/69638013/106491020-f2c04380-64a5-11eb-91bb-8ece21fca786.png)
+
 
 
 
