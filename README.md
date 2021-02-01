@@ -12,6 +12,8 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://prolajumokeoni.github.io/TheNewsWeek/)
 
+## Screenshot
+![prolajumokeoni github io_TheNewsWeek_](https://user-images.githubusercontent.com/69638013/106491020-f2c04380-64a5-11eb-91bb-8ece21fca786.png)
 
 
 
