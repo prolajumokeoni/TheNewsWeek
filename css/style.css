@@ -247,6 +247,35 @@ header svg {
  }
 }
 
+hr {
+    background-color: #212529;
+}
+
+.footer-logo-large {
+    color: #f72210;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer-logo-legal {
+    font-size: 12px;
+}
+
+.footer-eds {
+    color: grey;
+}    
+
+.footer-down {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-links {
+    font-size: 14px;
+    color: grey;
+}
+
 @media screen and (max-width: 451px) {
  .main2-svg {
    margin: 15px 0 0 -75px !important;
