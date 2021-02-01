@@ -42,13 +42,13 @@ To get a local copy up and running follow these simple example steps.
 👤 **Olajumoke Priscilla Oni**
 
 - GitHub: [@githubhandle](https://github.com/prolajumokeoni)
-- Twitter: [@twitterhandle](https://twitter.com/twitterprolajumokeoni)
+- Twitter: [@twitterhandle](https://twitter.com/prolajumokeoni)
 
 
 👤 **Lilian Francis**
 
 - GitHub: [@githubhandle](https://github.com/ifnotlily)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@twitterhandle](https://twitter.com/ifnotlily)
 
 
 ## 🤝 Contributing
