@@ -1,5 +1,7 @@
 # TheNextWeek
-The 3rd project for the HTML/CSS project, For the first milestone 1, we were requested to make just the header and the footer, using more of bootstrap for  our styling and responsiveness.
+The 3rd project for the HTML/CSS project. 
+For the first milestone, we were requested to make just the header and the footer, using more of bootstrap for  our styling and responsiveness.
+For the second milestone, We are to add the three columns and use more of bootstrap for the styling. 
 ## Screenshot
 ![prolajumokeoni github io_TheNewsWeek_](https://user-images.githubusercontent.com/69638013/106491020-f2c04380-64a5-11eb-91bb-8ece21fca786.png)
 
