@@ -137,6 +137,7 @@ hr {
   background-color: #212529;
 }
 
+
 .magazine-logo {
   color: #333;
   font: bold 19px/19px "Roboto Condensed",sans-serif;
@@ -188,6 +189,57 @@ hr {
   font-size: 1rem;
   line-height: 1rem;
 }
+
+.subscribe-title {
+  color: red;
+  font-weight: bolder;
+  font-size: 0.85rem;
+}
+
+.subscribe-title-description {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.subscribe-description {
+  font-size: 0.9rem;
+}
+
+.subscribe-button {
+  border: 0;
+  background-color: red;
+}
+
+.newsweek-bottom-img{
+  height: 100%;
+}
+
+.newsletter-title{
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+}
+
+.newsletter-button{
+  border: 0;
+  padding: 2px;
+  background-color: red;
+  color: white;
+}
+
+.newsletter-email{
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.newsletter-description{
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.background-subs {
+  background-color:#f4f5f6;
+}
+
 
 .footer {
 padding-left: 30px;
