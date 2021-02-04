@@ -157,6 +157,45 @@ header svg {
 hr {
   background-color: #212529;
 }
+
+.magazine-logo {
+  color: #333;
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.square-magazine {
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.img-magazine-height-desktop {
+  height: 300px ;
+}
+.relative-img {
+  position: relative;
+}
+
+
 .footer {
 padding-left: 30px;
 }
