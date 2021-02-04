@@ -3,7 +3,7 @@ body {
   background-color: #f4f5f6;
 }
 
-.container-fluid {
+.container-fluid { 
   min-width: 100%; 
   padding: 0 !important;
 }
@@ -106,7 +106,6 @@ header svg {
   width: 80px;
   margin-top: 0;
 }
-
 
 .header-bottom-menu li a {
   font-size: 14px;
