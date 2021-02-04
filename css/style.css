@@ -4,16 +4,10 @@ body {
 }
 
 .container-fluid { 
-  min-width: 100%; 
-  padding: 0 !  important;
+  min-width: 100%;
 }
 
-header {
-  min-width: 100%;a
-  margin-top: 70px;
-}
-
-.header-main-3-lg {
+.mobile-header {
   position: fixed;
   min-height: 20px;
   display: none;
@@ -21,15 +15,11 @@ header {
 }
 
 header > div {
-  background-color: #64302b;
+  background-color: #F72210;
 }
 
 .header-btn div {
   margin-bottom: 20px;
-}
-
-header div:first-child {
-  position: relative;
 }
 
 .header-date,
