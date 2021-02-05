@@ -128,6 +128,9 @@ header svg {
  .debate-border {
   border-bottom: 3px solid #D9D9D9;
 }
+.card-img-sec {
+  position: relative;
+}
 
 @media screen and (max-width: 992px) {
  .header-main-1,
@@ -136,6 +139,12 @@ header svg {
   display: none;
 }
 
+.card-img-top {
+  position: relative;
+}
+.top-stories-sec img {
+  height: 300px;
+}
 .container-fluid {
   padding: 0;
   margin: 0;
@@ -319,6 +328,20 @@ padding-left: 30px;
 .login {
   display: none;
 }
+.feature-stories img,
+  
+  .top-stories img,
+  .debate img,
+  .my-turn img,
+  .cult-and-tra img {
+    height: 100%;
+  }
+
+  .my-turn img,
+  .cult-and-tra img {
+    width: 100%;
+    max-height: 100%;
+  }
 
 .subscribe {
   border-radius: 15px;
