@@ -43,6 +43,18 @@ header svg {
   background-color: #ffe400;
   margin-right: 30px;
 }
+
+.hr-icon-bottom {
+  top: 100%;
+  right: 0;
+  content: "";
+  width: 92px;
+  height: 14px;
+  background-color: #f72210;
+  border-left: 22px solid white;
+  border-top: 16px solid #f72210;
+}
+
 .header-main-2 img,
 .header-main-3 img {
   width: 50px;
@@ -107,8 +119,14 @@ header svg {
 .fa-user {
   display: none;
 }
-.debate-border {
-  border-style:solid double ;
+.border-3 {
+  border-bottom: double;
+  border-width: 6px solid black;
+  width: auto;
+  margin-bottom: 5px;
+}
+ .debate-border {
+  border-bottom: 3px solid #D9D9D9;
 }
 
 @media screen and (max-width: 992px) {
