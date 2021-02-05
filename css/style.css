@@ -31,6 +31,17 @@ header > div {
 header svg {
   transform: scale(2.3);
 }
+.main2-svg-link {
+  width: 100px;
+  height: 20px;
+}
+
+.main2-svg {
+  margin: 15px 0 0 -90px;
+  width: 300px;
+}
+
+
 
 .login {
   font-size: 16px;
@@ -54,6 +65,12 @@ header svg {
   background-color: #f72210;
   border-left: 22px solid white;
   border-top: 16px solid #f72210;
+}
+
+section.main-content {
+  margin-top: -76px;
+  z-index: -10;
+  overflow-x: hidden;
 }
 
 .header-main-2 img,
