@@ -144,6 +144,16 @@ section.main-content {
   color: black;
 }
 
+.opinion-img > div,
+.opinion-img-sm .signup {
+  margin: 0 auto;
+  max-width: 300px;
+}
+.more-stories img,
+.latest-stories img {
+  max-height: 95px;
+  min-width: 95px;
+}
   .social-icons {
     float: left !important;
  
