@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .container-fluid { 
@@ -321,8 +321,8 @@ section.main-content {
 
 @media screen and (max-width: 451px) {
  .main2-svg {
-   margin: 15px 0 0 -75px !important;
-   width: 220px !important;
+  margin: 15px 0 0 -75px !important;
+  width: 220px !important;
  }
 }
 /* MEDIA QUERIES ONLY  */
