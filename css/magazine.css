@@ -1,4 +1,3 @@
-
 .bg-primary-red {
   background-color: var(--red);
 }
@@ -26,11 +25,7 @@
   text-decoration-color: #f72210;
 }
 
-/* Body*/
-body {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
+/* Body */
 .card_header {
   color: var(--gray-400);
 }
@@ -93,7 +88,8 @@ a:hover {
   position: sticky;
   top: 60px;
 }
-/*Cards*/
+
+/* Cards */
 .line__deco::before {
   content: "";
   position: absolute;
@@ -132,7 +128,7 @@ a:hover {
 }
 
 .op__image {
-  width:100%;
+  width: 100%;
 }
 
 .bottom__tag > a {
@@ -191,7 +187,8 @@ a:hover {
 .after {
   font-weight: 700;
 }
-/*Header*/
+
+/* Header */
 body {
   background-color: var(--gray-1000);
 }
@@ -291,11 +288,12 @@ svg {
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
 }
-/*New/*/
+
+/* New */
 @media only screen and (min-width: 1325px) {
   .main-wrapper {
-    max-width: 1300px;
-    margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
   }
 }
 
@@ -322,7 +320,8 @@ svg {
 .left-50 {
   left: 50%;
 }
-/* Reset*/
+/*  Reset */
+
 /**
  * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
  * A thin layer on top of normalize.css that provides a starting point more
@@ -333,176 +332,174 @@ svg {
  * Removes the default spacing and border for appropriate elements.
  */
 
- blockquote,
- dl,
- dd,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- hr,
- figure,
- p,
- pre {
-   margin: 0;
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
  }
  
- button {
-   background-color: transparent;
-   background-image: none;
- }
+button {
+  background-color: transparent;
+  background-image: none;
+}
  
  /**
         * Work around a Firefox/IE bug where the transparent `button` background
         * results in a loss of the default `button` focus styles.
         */
  
- button:focus {
-   outline: 1px dotted;
-   outline: 5px auto -webkit-focus-ring-color;
- }
- 
- fieldset {
-   margin: 0;
-   padding: 0;
- }
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-family-default); /* 1 */
+  line-height: 1.5; /* 2 */
+}
  
 
  
- html {
-   font-family: var(--font-family-default); /* 1 */
-   line-height: 1.5; /* 2 */
- }
+body {
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+  min-height: 100vh;
+  color: var(--gray-900);
+}
  
 
- 
- body {
-   font-family: inherit;
-   line-height: inherit;
-   margin: 0;
-   min-height: 100vh;
-   color: var(--gray-900);
- }
- 
-
- *,
- ::before,
- ::after {
-   box-sizing: border-box; 
-   border-width: 0; 
-   border-style: solid; 
-   border-color: var(--gray-300); 
- }
+*,
+::before,
+::after {
+  box-sizing: border-box; 
+  border-width: 0; 
+  border-style: solid; 
+  border-color: var(--gray-300); 
+}
  
  
  
- hr {
-   border-top-width: 1px;
-   border-color: var(--gray-300);
- }
+hr {
+  border-top-width: 1px;
+  border-color: var(--gray-300);
+}
  
  
- img {
-   border-style: solid;
- }
+img {
+  border-style: solid;
+}
  
- textarea {
-   resize: vertical;
- }
+textarea {
+  resize: vertical;
+}
  
- input::placeholder,
- textarea::placeholder {
-   color: var(--gray-400);
- }
+input::placeholder,
+  textarea::placeholder {
+  color: var(--gray-400);
+}
  
- button,
+button,
  [role="button"],
  input[type="submit"] {
-   cursor: pointer;
-   font-family: var(--font-family-default);
-   transition: all 150ms ease-in-out;
- }
+  cursor: pointer;
+  font-family: var(--font-family-default);
+  transition: all 150ms ease-in-out;
+}
  
- button:focus:not([data-focus-visible-added]) {
-   outline: none;
- }
+button:focus:not([data-focus-visible-added]) {
+  outline: none;
+}
  
- button:disabled,
- button[disabled],
- [role="button"]:disabled,
- [role="button"][disabled],
- input:disabled,
- input[disabled] {
-   opacity: 0.5;
-   cursor: default;
-   pointer-events: none;
- }
+button:disabled,
+button[disabled],
+[role="button"]:disabled,
+[role="button"][disabled],
+input:disabled,
+input[disabled] {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
  
- table {
-   border-collapse: collapse;
- }
+table {
+  border-collapse: collapse;
+}
  
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-   font-size: inherit;
-   font-weight: inherit;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
  
- a {
-   text-decoration: inherit;
-   color: inherit;
- }
- 
- 
- button,
- input,
- optgroup,
- select,
- textarea {
-   padding: 0;
-   line-height: inherit;
-   color: inherit;
- }
- 
- input,
- textarea {
-   font-family: var(--font-family-default); /* 1 */
- }
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
  
  
- pre,
- code,
- kbd,
- samp {
-   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-     "Liberation Mono", "Courier New", monospace;
- }
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit; 
+}
+ 
+input,
+textarea {
+  font-family: var(--font-family-default); /* 1 */
+}
  
  
- img,
- svg,
- video,
- canvas,
- audio,
- iframe,
- embed,
- object {
-   display: block;
- }
+pre,
+code,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+}
  
  
- img,
- video {
-   max-width: 100%;
-   height: auto;
- }
-/*Section*/
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+ 
+ 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+/* Section */
 .section {
   border-top: 1px solid #d9d9d9;
   padding: 16px 0;
@@ -536,10 +533,10 @@ svg {
     border-left: 1px solid #d9d9d9;
   }
 }
-/* Reset*/
+/* Reset */
  @media only screen and (max-width: 768px) {
   .sm\:mt-3 {
-    margin-top: 1rem;
+  margin-top: 1rem;
   }
 }
 
@@ -553,16 +550,16 @@ svg {
 
 @media only screen and (max-width: 768px) {
   .sm\:none {
-    display: none;
+  display: none;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .md\:none {
-    display: none;
+  display: none;
   }
 }
-/* typo*/
+/* typo */
 .text-gray {
   color: rgba(3, 3, 3, 0.5);
 }
@@ -603,7 +600,8 @@ svg {
 .currentColor {
   fill: var(--red);
 }
-/* var*/
+
+/* var */
 :root {
   --font-family-default: inter;
   --red: #f72210;
