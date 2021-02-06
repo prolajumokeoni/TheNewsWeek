@@ -154,11 +154,26 @@ section.main-content {
   max-height: 95px;
   min-width: 95px;
 }
-  .social-icons {
-    float: left !important;
- 
-  }
-  
+
+.debate img {
+  min-width: 70px;
+  height: 70px;
+}
+
+.opinion-img img {
+  height: 200px;
+}
+
+.debate-item {
+  width: 50%;
+  border-top: 4px solid rgb(201, 177, 177);
+  border-bottom: 3px double rgb(201, 177, 177);
+}
+
+
+
+.
+  /* MEDIA QUERIES */
 @media screen and (max-width: 991.99px) {
   .container-fluid {
       padding: 0;
@@ -189,7 +204,7 @@ section.main-content {
   }
 
 .top-stories-sec img {
-  height: 300px;
+  height: 200px;
 }
 }
 .header-bottom-menu li a,
@@ -294,3 +309,4 @@ section.main-content {
    width: 220px !important;
  }
 }
+/* MEDIA QUERIES ONLY  */
