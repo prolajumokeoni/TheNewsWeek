@@ -7,7 +7,6 @@ body {
   min-width: 100%;
 }
 
-
 .mobile-header {
   position: fixed;
   min-height: 20px;
@@ -16,7 +15,7 @@ body {
 }
 
 header > div {
-  background-color: #F72210;
+  background-color: #f72210;
   margin-top: 5%;
 }
 
@@ -49,7 +48,6 @@ header svg {
 .hr-icon-bottom {
   top: 100%;
   right: 0;
-  content: "";
   width: 92px;
   height: 14px;
   background-color: #f72210;
@@ -69,18 +67,14 @@ header svg {
   fill: white;
 }
 
-
 footer svg {
   fill: #f72210;
 }
 
-footer svg,
 .header-top svg {
   width: 236px;
   height: 36px;
 }
-
-
 
 .copy-right {
   position: absolute;
@@ -120,25 +114,31 @@ footer svg,
   width: auto;
   margin-bottom: 5px;
 }
+
  .debate-border {
-  border-bottom: 3px solid #D9D9D9;
+  border-bottom: 3px solid #d9d9d9;
 }
+
 .card-img-top {
   position: relative;
 }
+
 section.main-content {
   z-index: -10;
   overflow-x: hidden;
 }
+
 .feature-stories img,
 .top-stories img {
   height: 400px;
 }
+
 .my-turn img,
 .cult-and-tra img {
   max-height: 144px;
   width: 144px;
 }
+
 .my-turn h5 a,
 .cult-and-tra h5 a {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
@@ -150,6 +150,7 @@ section.main-content {
   margin: 0 auto;
   max-width: 300px;
 }
+
 .more-stories img,
 .latest-stories img {
   max-height: 95px;
@@ -190,18 +191,19 @@ section.main-content {
 .opinion-img img {
   height: 200px;
 }
+
   /* MEDIA QUERIES */
 @media screen and (max-width: 991.99px) {
   .container-fluid {
-      padding: 0;
-      margin: 0;
+    padding: 0;
+    margin: 0;
   }
   .header-main-2 svg {
     transform: scale(1.05);
     padding-left: 80px;
   }
     .footer-icon {
-      padding-top: 30px;
+    padding-top: 30px;
   }
   section.main-content {
     margin-top: 0;
@@ -215,22 +217,23 @@ section.main-content {
       height: 275px;
     }
   }
+
 @media screen and (min-width: 992px) {
   .header-main-1-lg > div {
     padding-top: 40px;
   }
 
+  
 .top-stories-sec img {
   height: 200px;
 }
 }
+
 .header-bottom-menu li a,
 .footer-edition li a,
 .footer-contact li a {
   font-size: 14px;
 }
-
-
 
 @media screen and (min-width: 992.99px) {
   .header-main-1-lg > div {
@@ -249,22 +252,21 @@ section.main-content {
   width: 250px;
   margin-top: 25px;
   position: static;
- }
+}
 
-.header-main-3 svg {
+  .header-main-3 svg {
   margin-bottom: 10px;
- }
+}
 
 .header-main-2 img,
 .header-main-3 img {
   width: 40px;
   height: 40px;
- }
+}
 
 .login {
   display: none;
 }
-
 
 .subscribe {
   border-radius: 15px;
@@ -281,6 +283,7 @@ section.main-content {
   top: 3px;
   padding-bottom: 5px;
 }
+
 .top-stories img,
 .debate img,
 .my-turn img,
@@ -292,38 +295,33 @@ section.main-content {
 .cult-and-tra img {
   width: 100%;
   max-height: 100%;
-}
-}
+}}
 
 @media screen and (max-width: 1131px) {
  .header-top-menu li a {
   font-size: 15px;
   padding: 5px 8px;
- }
+  }
 
  .header-bottom-menu li a {
   font-size: 14px;
   padding-right: 0;
- }
-}
+}}
 
 @media screen and (min-width: 1387px) {
  .container-fluid {
   min-width: 100%;
   padding-left: 7% !important;
   padding-right: 7% !important;
- }
+}
 
  .header-top-menu li a {
   font-size: 17px;
   padding-right: 15px;
- }
-}
+}}
 
 @media screen and (max-width: 451px) {
  .main2-svg {
   margin: 15px 0 0 -75px !important;
   width: 220px !important;
- }
-} 
-/* MEDIA QUERIES ONLY  */
+}} 
